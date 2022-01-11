@@ -22,6 +22,9 @@ int main() {
         cout << (*ri).first << " : " << (*ri).second << endl;
     }
 
+    // size() function returns the number of elements in map
+    cout << student_mark.size() << endl;
+
 }
 
 /*
