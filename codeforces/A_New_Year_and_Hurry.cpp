@@ -7,7 +7,14 @@ using namespace std;
 const double PI=acos(-1); 
 
 void solve() {
-    
+    int n, k;
+    cin >> n >> k;
+    for ( int i = n; i >=0; i--) {
+       float sum = (5*i*(i+1)/2);
+       if (sum <= (240-k) ) {
+           cout << i << "\n"; break;
+       }
+    } 
 }
 int main() {
     ios_base::sync_with_stdio(0);

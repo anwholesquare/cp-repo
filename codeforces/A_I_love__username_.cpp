@@ -7,7 +7,24 @@ using namespace std;
 const double PI=acos(-1); 
 
 void solve() {
-    
+    int n;
+    cin >> n;
+    int x;
+    cin >> x;
+    int max = x, min = x;
+    int i = 1, cnt = 0;
+    n--;
+    while(n--) {
+        cin >> x;
+        if ( x > max) {
+            max = x; cnt++; continue;
+        }
+        else if ( x < min) {
+            min = x; cnt++; continue;
+        }
+    }
+
+    cout << cnt << "\n";
 }
 int main() {
     ios_base::sync_with_stdio(0);
