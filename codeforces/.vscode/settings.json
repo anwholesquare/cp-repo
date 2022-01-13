@@ -3,7 +3,8 @@
         "stdio.h": "c",
         "ostream": "cpp",
         "cmath": "cpp",
-        "functional": "cpp"
+        "functional": "cpp",
+        "iostream": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
